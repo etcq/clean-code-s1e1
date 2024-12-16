@@ -11,9 +11,11 @@
   display: block;
   text-align: right;
 }
+
 .header__img {
   width: 100%;
 }
+
 .more-info {
   font-family: fantasy, cursive;
 }
@@ -139,7 +141,8 @@
 }
 
 /* Edit Task */
-.task-list__item .task-text {
+.task-list__item .task-text,
+.edit-mode .task-name {
   display: none;
 }
 
@@ -148,6 +151,3 @@
   width: 224px;
 }
 
-.edit-mode .task-name {
-  display: none;
-}
