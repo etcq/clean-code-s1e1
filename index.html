@@ -6,20 +6,20 @@
     <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
   </head>
   <body>
-    <div class="aaa">
+    <div class="header">
       <img src="./eisenhower-matrix.jpg">
       <a class="more-info" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
     </div>
-    <div class="centered-main-page-element">
-      <p id="top-section-for-adding-element-to-list">
-        <label for="new-task">Add Item</label>
-        <div class="task-row-wrapper">
+    <div class="todo-list__wrapper">
+      <p id="new-task__wrapper">
+        <label for="new-task" class="task-list__header new-task__header">Add Item</label>
+        <div class="new-task__add">
           <input id="new-task" class="task" type="text">
           <button>Add</button>
         </div>
       </p>
-      <h3>Todo</h3>
-      <ul id="incomplete-tasks">
+      <h3 class="task-list__header">Todo</h3>
+      <ul id="task-list__incomplete">
         <li>
           <input type="checkbox">
           <label class="task">Pay Bills</label>
@@ -35,8 +35,8 @@
           <button class="delete"><img src="./remove.svg"></button>
         </li>
       </ul>
-      <h3>Completed</h3>
-        <ul id="completed-tasks">
+      <h3 class="task-list__header">Completed</h3>
+        <ul id="task-list__complete">
           <li><input type="checkbox" checked>
             <label class="task">See the Doctor</label>
             <input type="text" class="task">
