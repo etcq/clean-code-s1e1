@@ -4,6 +4,7 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .header {
   width: 500px;
   margin: 0 auto;
@@ -18,8 +19,9 @@
 }
 
 @media (max-width:768px) {
-.header { text-align: center;
-}
+  .header { 
+    text-align: center;
+  }
 }
 
 .todo-list__wrapper {
@@ -27,6 +29,7 @@
   width: 500px;
   margin: 0 auto 0;
 }
+
 .task {
   width: 56%;
   display: inline-block;
